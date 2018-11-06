@@ -97,7 +97,7 @@ class MainActivity : AppCompatActivity() {
                     lparams(width = matchParent, height = matchParent) {
                         val orientation = LinearLayoutManager.VERTICAL
                         layoutManager = LinearLayoutManager(context)
-                        val divider = DividerItemDecoration(context, orientation);
+                        val divider = DividerItemDecoration(context, orientation)
                         addItemDecoration(divider)
                         visibility = View.VISIBLE
                     }

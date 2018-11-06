@@ -12,7 +12,7 @@ import org.jetbrains.anko.AnkoContext
 
 class ClubAdapter(val clickListener: (Club) -> Unit) : RecyclerView.Adapter<ClubAdapter.ClubViewHolder>() {
 
-    var clubs: MutableList<Club> = ArrayList<Club>()
+    var clubs: MutableList<Club> = ArrayList()
 
     override fun onCreateViewHolder(parent: ViewGroup, p1: Int): ClubViewHolder {
         return ClubViewHolder(ClubUI().createView(AnkoContext.create(parent.context, parent)))

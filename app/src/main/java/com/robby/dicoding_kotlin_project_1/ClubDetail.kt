@@ -10,9 +10,9 @@ import org.jetbrains.anko.*
 class ClubDetail : AppCompatActivity() {
 
     companion object {
-        val im_logo = 1
-        val tv_name = 2
-        val tv_desc = 3
+        const val im_logo = 1
+        const val tv_name = 2
+        const val tv_desc = 3
     }
 
     override fun onCreate(savedInstanceState: Bundle?) {

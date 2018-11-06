@@ -8,8 +8,8 @@ import org.jetbrains.anko.*
 class ClubUI : AnkoComponent<ViewGroup> {
 
     companion object {
-        val iv_logo = 1
-        val tv_name = 2
+        const val iv_logo = 1
+        const val tv_name = 2
     }
 
     override fun createView(ui: AnkoContext<ViewGroup>) = with(ui) {
